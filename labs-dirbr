@@ -1,0 +1,23 @@
+# Enumeración con Dirb
+
+## Objetivo
+Descubrir directorios ocultos en una aplicación web objetivo.
+
+## Herramienta utilizada
+Dirb
+
+## Comando utilizado
+dirb http://IP-OBJETIVO
+
+## Resultados obtenidos
+- /admin
+- /login
+- /uploads
+
+## Análisis
+La herramienta permitió identificar rutas ocultas que podrían exponer paneles administrativos o archivos sensibles.
+
+## Prevención
+- Deshabilitar listados de directorios
+- Restringir acceso a rutas sensibles
+- Implementar autenticación adecuada
