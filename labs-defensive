@@ -1,0 +1,19 @@
+# Laboratorio: Sistema de Detección de Intrusos
+
+## Objetivo
+Detectar y mitigar un ataque dirigido al panel administrativo de un banco.
+
+## Escenario
+Una IP comenzó a realizar múltiples solicitudes hacia la ruta /admin.
+
+## Detección
+El sistema IDS identificó actividad sospechosa desde una dirección IP específica.
+
+## Acción tomada
+- Bloqueo de la IP atacante.
+- Implementación de limitación de solicitudes (rate limiting).
+
+## Conceptos aprendidos
+- Importancia del monitoreo constante.
+- Protección de paneles administrativos.
+- Defensa contra ataques de denegación de servicio.
